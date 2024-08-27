@@ -17,10 +17,19 @@
             <p>hey</p>
         </div>
     </div>
-
+    <!-- bublling
+    if we have even in child and parent and we heat child even it will also heat parent event -->
+    <div id="list" onclick="liveReminder('div parent')">
+        Step 1
+        <div onclick="liveReminder('div child')">Step 2 
+            <p onclick="liveReminder('p data')">Step 3</p>
+        </div>
+    </div>
+    
     <input type="button" onclick="practise_three()" value="button-clickable" class="in">
     <input type="button" value="click" class="in" id="inTwo">
     <input type="button" onclick="practise_five(false)" value="click2" class="in" id="inthree">
+
     <script src="../script2.js"></script>
 </body>
 

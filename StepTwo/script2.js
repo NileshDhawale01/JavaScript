@@ -111,3 +111,10 @@ const practise_five = (condition) => {
         backToNormal();
     }
 }
+
+const liveReminder=(fromData)=>{
+    alert('this from',fromData)
+}
+const practise_six =()=>{
+
+}
