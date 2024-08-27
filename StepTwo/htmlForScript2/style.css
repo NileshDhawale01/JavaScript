@@ -1,0 +1,36 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body#main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style for the first div */
+#one {
+    flex: 1; /* Takes up half of the container */
+    height: 50%; /* Occupy half of the viewport height */
+}
+
+/* Style for the second div */
+#two {
+    flex: 1; /* Takes up the remaining half */
+    height: 50%; /* Occupy half of the viewport height */
+}
+.in{
+    display: flex;
+    position: relative;
+    width: 40px;
+    height: 15px;
+}
