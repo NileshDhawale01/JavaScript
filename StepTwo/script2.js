@@ -39,7 +39,7 @@ const practise_one = () => {
     oneData.setAttribute('class', 'oneUp')
     console.log('one data', oneData.className)
 
-    // changing proverty
+    // changing property
     oneData.id = 'oneIdUp'
     console.log('id updated', oneData.id)
 
