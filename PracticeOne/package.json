@@ -1,8 +1,8 @@
 {
-  "name": "stepone",
+  "name": "practice",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "FunctionForTest.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +11,6 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "stepone": "file:"
+    "practice": "file:"
   }
 }

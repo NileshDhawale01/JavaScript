@@ -1,22 +1,3 @@
-let magic = () => {
-
-    const rgb = (max) => {
-        let r = 11;
-        let g = 243;
-        let b = 255;
-        r = Math.floor(Math.random() * (max - 1));
-        g = Math.floor(Math.random() * (max - 1));
-        b = Math.floor(Math.random() * (max - 1));
-        return `rgb(${r}, ${g}, ${b})`;
-    }
-
-    const fun = () => {
-        document.getElementById('two').style.background = rgb(255);
-        document.getElementById('one').style.background = rgb(255);
-    }
-    setInterval(fun, 1000)
-}
-
 const practise_one = () => {
     let nodes = document.body.childNodes;
 
