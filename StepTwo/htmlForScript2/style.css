@@ -34,3 +34,7 @@ body#main {
     width: 40px;
     height: 15px;
 }
+
+.tableClass{
+    background-color: red;
+}

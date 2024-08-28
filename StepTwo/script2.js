@@ -115,6 +115,26 @@ const practise_five = (condition) => {
 const liveReminder=(fromData)=>{
     alert('this from',fromData)
 }
-const practise_six =()=>{
+
+const changeColor = (event)=>{
+
+    console.log('working')
+    if(event.target.tagName !='TD'){
+        return;
+    }
+
+    // adding new class
+    event.target.classList.add('tableClass');
 
 }
+// event deligations --> we can pass event and and perform actions on that event
+const practise_six =()=>{
+
+    let dataIs = document.querySelectorAll('table')
+
+    console.log('six call',dataIs,dataIs[0])
+
+    // passing even
+    dataIs[0].addEventListener('click',changeColor);
+}
+practise_six();
